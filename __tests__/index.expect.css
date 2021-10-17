@@ -1,0 +1,45 @@
+body div#app div.top_content div.main_content {
+  display: block;
+  position: relative;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  overflow-y: auto;
+  max-height: 100vh;
+  max-height: calc(var(--vh, 1vh) * 100);
+}
+@media screen and (min-width: 1001px) {
+  body div#app div.top_content div.main_content {
+    width: calc(100vw - 100px);
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body div#app div.top_content div.main_content {
+    width: 100vw;
+  }
+}
+body div#app div.top_content div.main_content div.main_home {
+  margin-top: 8vh;
+  margin-top: calc(var(--vh, 1vh) * 8);
+}
+@media screen and (min-width: 1001px) {
+  body div#app div.top_content div.main_content div.main_home {
+    width: 65vw;
+    height: calc(100% - 20px - 5vh);
+    height: calc(100% - 20px - calc(var(--vh, 1vh) * 5));
+  }
+}
+body div#app div.top_content div.main_content div.main_home div {
+  width: 100%;
+  margin-top: 0vh;
+  margin-top: calc(var(--vh, 1vh) * 0);
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0;
+  animation-name: liftDown;
+  animation-duration: 0.8s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  text-align: center;
+}

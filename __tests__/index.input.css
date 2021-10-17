@@ -1,0 +1,40 @@
+body div#app div.top_content div.main_content {
+  display: block;
+  position: relative;
+  height: 100vh;
+  overflow-y: auto;
+  max-height: 100vh;
+}
+@media screen and (min-width: 1001px) {
+  body div#app div.top_content div.main_content {
+    width: calc(100vw - 100px);
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body div#app div.top_content div.main_content {
+    width: 100vw;
+  }
+}
+body div#app div.top_content div.main_content div.main_home {
+  margin-top: 8vh;
+}
+@media screen and (min-width: 1001px) {
+  body div#app div.top_content div.main_content div.main_home {
+    width: 65vw;
+    height: calc(100% - 20px - 5vh);
+  }
+}
+body div#app div.top_content div.main_content div.main_home div {
+  width: 100%;
+  margin-top: 0vh;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0;
+  animation-name: liftDown;
+  animation-duration: 0.8s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  text-align: center;
+}
