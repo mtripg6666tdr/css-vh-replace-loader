@@ -6,6 +6,8 @@ body div#app div.top_content div.main_content {
   overflow-y: auto;
   max-height: 100vh;
   max-height: calc(var(--vh, 1vh) * 100);
+  margin-bottom: -5vh;
+  margin-bottom: calc(var(--vh, 1vh) * -5);
 }
 @media screen and (min-width: 1001px) {
   body div#app div.top_content div.main_content {
