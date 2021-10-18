@@ -1,6 +1,6 @@
 {
   "name": "css-vh-replace-loader",
-  "version": "1.0.0-rc2",
+  "version": "1.0.0-rc3",
   "description": "Replaces all vh units in css with `--vh` variables",
   "main": "index.js",
   "scripts": {
