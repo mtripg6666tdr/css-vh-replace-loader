@@ -5,8 +5,8 @@ module.exports = function (content, map, meta) {
       if(prop.indexOf("vh") < 0){
         return prop;
       }else{
-        return prop + prop.replace(/-?\d+vh/g, part => {
-          return "calc(var(--vh,1vh)*" + part.match(/(-?\d+)/)[1] + ")";
+        return prop + prop.replace(/-?[\d\.]+vh/g, part => {
+          return "calc(var(--vh,1vh)*" + part.match(/(-?[\d\.]+)/)[1] + ")";
         })
       }
     }) + "}";
