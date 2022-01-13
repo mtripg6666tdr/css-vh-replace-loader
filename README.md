@@ -1,5 +1,5 @@
 # css-vh-replace-loader
-This loader replaces `<num>vh` with `calc(var(--vh, 1vh) * <num>`.
+This loader replaces `<num>vh` with `calc(var(--vh, 1vh) * <num>)`.
 
 Mobile browsers implement the vh-unit differently. This webpack loader replaces `vh` units in css with `--vh` global variables.
 
