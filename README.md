@@ -1,5 +1,5 @@
 # :warning: This package is DEPRECATED!
-This project will no longer maintained. See [#4](https://github.com/mtripg6666tdr/css-vh-replace-loader/issues/4) for more info.
+This project will no longer be maintained. See [#4](https://github.com/mtripg6666tdr/css-vh-replace-loader/issues/4) for more info.
 
 ---
 # css-vh-replace-loader
